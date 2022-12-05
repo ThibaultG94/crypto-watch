@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import PercentChange from './PercentChange';
+import TableFilters from './TableFilters';
 
 const HeaderInfos = () => {
 	const [headerData, setHeaderData] = useState([]);
@@ -46,6 +47,7 @@ const HeaderInfos = () => {
 						headerData.market_cap_percentage.eth.toFixed(1) + '%'}
 				</li>
 			</ul>
+			<TableFilters />
 		</div>
 	);
 };
