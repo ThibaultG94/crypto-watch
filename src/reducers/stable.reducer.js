@@ -1,4 +1,4 @@
-import { SET_STABLE_STATE } from '../actions/stable.actions';
+import { SET_STABLE_STATE } from '../actions/stable.action';
 
 const initialState = {};
 
